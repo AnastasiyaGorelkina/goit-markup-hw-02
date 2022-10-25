@@ -1,0 +1,38 @@
+/* Палітра кольорів
+основний бекфон #F5F5F5 
+основний фон #ffffff
+другорядний фон #2F303A
+
+основний текст #757575
+заголовки #212121
+ссилки\кнопки #2196F3 ; #FFFFFF ; #212121
+лого #2196F3 ; #000000 ; #FFFFFF
+*/
+
+:root {
+--primary-background-color: #ffffff;
+--secondary-background-color: #2F303A;
+--primary-text-color: #757575;
+--titel-text-color: #212121;
+--accsent-color: #2196F3;
+--secondary-ac-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+.logo{
+    color:var(--accsent-color) ;
+}
+
+.logo-head{
+    color:#000000 ;
+}
+.logo-footer{
+    color: #ffffff;
+}
+.footer {
+    background-color:var(--secondary-background-color) ;
+}
