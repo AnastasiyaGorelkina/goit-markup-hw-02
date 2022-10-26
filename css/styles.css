@@ -10,6 +10,7 @@
 */
 
 :root {
+--background-basis: #F5F5F5;
 --primary-background-color: #ffffff;
 --secondary-background-color: #2F303A;
 --primary-text-color: #757575;
@@ -30,6 +31,11 @@ body {
     /* Лого */
 .logo{
     color:var(--accsent-color) ;
+    
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .logo-head{
@@ -42,6 +48,10 @@ body {
     /* Навігація */
 .site-nav .link {
     color: var(--titel-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -52,6 +62,10 @@ body {
 }
 .site-auth .link {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
 }
 .site-auth .link:hover, 
 .site-auth .link:focus {
@@ -66,15 +80,66 @@ body {
 .hero .button {
     background-color: var(--accsent-color);
     color: var(--secondary-ac-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 .hero.text{
     color: var(--secondary-ac-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
 }
+    /* Кнопки */
+.button {
+    background-color: var(--button-color);
+    color: var(--titel-text-color);
+    cursor: pointer;
 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.button:hover,
+.button:focus {
+    background-color: var(--accsent-color);
+    color: var(--secondary-ac-color);
+    cursor:pointer;
+}
     /* Наповнення */
+.team {
+    background-color: var(--background-basis);
+}
+.title {
+    color: var(--titel-text-color);
+}
+.title.specialty{
+    font-size: 36px;
+    line-height: 1.17;
+}
+.title.projects{
+    font-size: 18px;
+    line-height: 2;
+}
+.title.name-specialty {
+    color: var(--titel-text-color);
 
-    
+    font-size: 14px;
+    line-height: 1.14;
+}
+.title.name {
+    color: var(--titel-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+}
 /* Підвал */
 .footer {
     background-color:var(--secondary-background-color) ;
+}
+.address-link .link{
+    color: var(--secondary-ac-color);
 }
