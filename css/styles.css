@@ -10,6 +10,7 @@
 */
 
 :root {
+--logo-accsent: #000000;
 --background-basis: #F5F5F5;
 --primary-background-color: #ffffff;
 --secondary-background-color: #2F303A;
@@ -19,6 +20,7 @@
 --secondary-ac-color: #ffffff;
 --button-color: #F5F4FA;
 --text-link-footer: hexa {#ffffff60};
+--
 }
 
 body {
@@ -37,22 +39,29 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+
+    text-decoration: none;
 }
 
 .logo-head{
-    color:#000000 ;
+    color:var(--logo-accsent) ;
 }
 .logo-footer{
-    color: #ffffff;
+    color: var(--secondary-ac-color);
 }
 
     /* Навігація */
+.site-nav{
+    list-style: none;
+}
 .site-nav .link {
     color: var(--titel-text-color);
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
+
+    text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -61,12 +70,17 @@ body {
 .link-nav .link:active {
     color: var(--accsent-color);
 }
+.site-auth{
+    list-style: none;
+}
 .site-auth .link {
     color: var(--primary-text-color);
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
+
+    text-decoration: none;
 }
 .site-auth .link:hover, 
 .site-auth .link:focus {
@@ -110,6 +124,9 @@ body {
     cursor:pointer;
 }
     /* Наповнення */
+.list{
+    list-style: none;
+}
 .team {
     background-color: var(--background-basis);
 }
@@ -153,11 +170,16 @@ body {
 .footer {
     background-color:var(--secondary-background-color) ;
 }
+.address-link{
+    list-style: none;
+}
 .address-link .link{
     color: var(--secondary-ac-color);
 
     font-size: 14px;
     line-height: 1.7;
+
+    text-decoration: none;
 }
 .link.tel,
 .link.mail {
