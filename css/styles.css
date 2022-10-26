@@ -63,9 +63,17 @@ body {
 .hero {
     background-color: var(--secondary-background-color);
 }
+.hero .button {
+    background-color: var(--accsent-color);
+    color: var(--secondary-ac-color);
+}
 .hero.text{
     color: var(--secondary-ac-color);
 }
+
+    /* Наповнення */
+
+    
 /* Підвал */
 .footer {
     background-color:var(--secondary-background-color) ;
