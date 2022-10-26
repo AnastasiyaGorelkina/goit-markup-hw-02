@@ -27,6 +27,7 @@ body {
     color: var(--primary-text-color);
 
     font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 /* Шапка */
 
@@ -38,6 +39,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -51,6 +53,7 @@ body {
     /* Навігація */
 .site-nav{
     list-style: none;
+    letter-spacing: 0.02em;
 }
 .site-nav .link {
     color: var(--titel-text-color);
@@ -70,6 +73,7 @@ body {
 }
 .site-auth{
     list-style: none;
+    letter-spacing: 0.02em;
 }
 .site-auth .link {
     color: var(--primary-text-color);
@@ -90,6 +94,16 @@ body {
 .hero {
     background-color: var(--secondary-background-color);
 }
+.hero.text{
+    color: var(--secondary-ac-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
 .hero .button {
     background-color: var(--accsent-color);
     color: var(--secondary-ac-color);
@@ -97,17 +111,9 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
 }
-.hero.text{
-    color: var(--secondary-ac-color);
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.37;
-    text-transform:uppercase;
-    text-align:center;
-    letter-spacing: 6%;
-}
     /* Кнопки */
 .button {
     background-color: var(--button-color);
@@ -117,6 +123,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
@@ -125,6 +133,9 @@ body {
     cursor:pointer;
 }
     /* Наповнення */
+.cover-up {
+    visibility: hidden;
+}
 .list{
     list-style: none;
 }
@@ -141,12 +152,14 @@ body {
 .title.projects{
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .title.name-specialty {
     color: var(--titel-text-color);
 
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 .title.name {
     color: var(--titel-text-color);
