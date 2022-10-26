@@ -39,7 +39,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-
     text-decoration: none;
 }
 
@@ -106,6 +105,9 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
+    text-transform:uppercase;
+    text-align:center;
+    letter-spacing: 6%;
 }
     /* Кнопки */
 .button {
