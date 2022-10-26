@@ -16,6 +16,7 @@
 --titel-text-color: #212121;
 --accsent-color: #2196F3;
 --secondary-ac-color: #ffffff;
+--button-color: #F5F4FA;
 }
 
 body {
@@ -24,7 +25,9 @@ body {
 
     font-family: roboto, sans-serif;
 }
+/* Шапка */
 
+    /* Лого */
 .logo{
     color:var(--accsent-color) ;
 }
@@ -35,6 +38,35 @@ body {
 .logo-footer{
     color: #ffffff;
 }
+
+    /* Навігація */
+.site-nav .link {
+    color: var(--titel-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accsent-color);
+}
+.link-nav .link:active {
+    color: var(--accsent-color);
+}
+.site-auth .link {
+    color: var(--primary-text-color);
+}
+.site-auth .link:hover, 
+.site-auth .link:focus {
+    color: var(--accsent-color);
+}
+
+/* Основний контент */
+    /* Герой */
+.hero {
+    background-color: var(--secondary-background-color);
+}
+.hero.text{
+    color: var(--secondary-ac-color);
+}
+/* Підвал */
 .footer {
     background-color:var(--secondary-background-color) ;
 }
